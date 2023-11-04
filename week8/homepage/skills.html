@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles2.css" rel="stylesheet">
+        <title>My Skills</title>
+        <script>
+          function changeImage() {
+      var image1 = document.querySelector(".img1");
+      var image2 = document.querySelector(".img2");
+      var originalSrc1 = image1.src;
+      var newSrc = "https://media.tenor.com/_ln_VbU9u_UAAAAC/oh-snap-black-people.gif";
+      image1.src = newSrc;
+      image2.src = newSrc;
+      setTimeout(function() {
+        image1.src = originalSrc1;
+        image2.src = originalSrc1;
+        }, 5000);
+    }
+        </script>
+    </head>
+    <body>
+      <div class="header">
+          <a id="url1" href="skills.html"><h1>Simone's AMAZING skills</h1></a>
+      </div>
+      <nav class="navbar navbar-dark bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navigate in this Dark Alley, a nice tour in my mind.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="hobbies.html">Passions & Hobbies</a>
+              <a class="nav-link" href="skills.html">Skills</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <h1 id="bodytitle">Too many skills to list here, but I'm so skilled that I'll do it anyway.</h1>
+        <br>
+        <br>
+        <div class="corpus">
+          <img class="img1" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzFidG5tYmJueHcxNXZ0YjJtamlyZzhsYTU5cGE5cXFka2UwZ3d3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/smzfl3E7a4iHK/giphy.gif" alt="nerd image1">
+          <div class="details">
+            <details class="imgchange" onclick="changeImage()">
+              <summary>
+                I know you are curious about my many and special talents. Press here to get amazed.
+              </summary>
+              <p>
+                Truly a lot. I'm super strong, beautiful, smart, a nice chef, nice with the ladies, fast learner, good in everything I do, a programmer in the making, etc.
+                <br>
+                As I say to Francesco.
+                <br>
+                Sono forte proprio wagliu.
+              </p>
+            </details>
+          </div>
+          <img class="img2" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzFidG5tYmJueHcxNXZ0YjJtamlyZzhsYTU5cGE5cXFka2UwZ3d3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/smzfl3E7a4iHK/giphy.gif" alt="nerd image2">
+        </div>
+
+        </main>
+        <div class="foot">
+          <div class="foot-image">
+          <img id="hasby" src="https://media.tenor.com/5XsA1SZiWWoAAAAj/hasbulla-hasbik.gif" alt="Be careful, Hasbulla can get you.">
+          <span class="copyright">Copyright by Simmi, I know it's good but don't steal please. Piracy is a crime.</span>
+          </div>
+      </div>
+  </body>
+</html>
+
+

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Courier New, monospace;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 2rem 1rem;
+}
+
+#url1{
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#bodytitle {
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: 250;
+}
+
+.contact {
+    padding: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 11px; /* Some padding */
+    border: 3px solid #ccc; /* Gray border */
+    border-radius: 7px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    width: 12%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+
+  .foot{
+    position: relative;
+    height: 40vh;
+    }
+
+
+.foot-image {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+#hasby {
+    width: 6%;
+}
+
+
+.copyright {
+    font-size: 15px;
+    }

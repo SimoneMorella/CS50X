@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+How do you know?: this algorithm has the highest value for the upper bound (because it have to always compare two values in sequence) and because of it
+it has to perform a lot more actions than the selection sort even though the lower bound is (n)
+
+sort2 uses: merge sort
+How do you know?: merge sort has to be the fastest one because the upper bound and the lower bound are (n * log n). This number will be a lot smaller than n^2.
+
+sort3 uses: selection sort
+
+How do you know?: even though selection sort has the same lower and upper bound (n^2) it is significantly faster than bubble sort when the array is made out of finite
+(and not too many) elements. this happens because selection sort have to compare always just the smallest value while bubble sort compare always sequences of numbers.

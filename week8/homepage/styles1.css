@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Courier New, monospace;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 2rem 1rem;
+}
+
+#url1{
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#bodytitle {
+    margin-top: 20px;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: 250;
+}
+
+ul {
+    width:65%;
+    font-size: 19px;
+    text-align: justify;
+
+}
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.imgchange {
+    text-align: right;
+    float: right;
+    right: 0px;
+    margin-left: 200px;
+    margin-right: 20px;
+    }
+
+.change {
+    border-radius: 15px;
+    width:500px;
+}
+
+.boxing {
+    color: red;
+    font-size: 24px;
+}
+
+.boxing:hover {
+    font-size:28px;
+}
+
+.volley {
+    color: yellow;
+    font-size: 24px;
+}
+
+.volley:hover {
+    font-size:28px;
+}
+
+.videogame {
+    color: green;
+    font-size: 24px;
+}
+
+.videogame:hover {
+    font-size: 28px;
+}
+
+.foot{
+    position: relative;
+    height: 40vh;
+    }
+
+
+.foot-image {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+#hasby {
+    width: 6%;
+}
+
+
+.copyright {
+    font-size: 15px;
+    }

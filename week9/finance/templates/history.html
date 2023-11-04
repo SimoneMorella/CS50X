@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <h2>Transaction History</h2>
+    <main class="container py-5 text-center">
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="text-start">Symbol</th>
+                    <th class="text-start">Transaction</th>
+                    <th class="text-end">Shares</th>
+                    <th class="text-end">Price</th>
+                    <th class="text-end">Date and Time</th>
+                </tr>
+            </thead>
+           <tbody>
+            {% for line in history_lines %}
+                    <tr>
+                        <td class="text-start">{{line.symbol}}</td>
+                        <td class="text-start">{{line.type}}</td>
+                        <td class="text-end">{{line.shares}}</td>
+                        <td class="text-end">{{line.price | usd }}</td>
+                        <td class="text-end">{{line.datetime}}</td>
+                    </tr>
+
+            {% endfor %}
+            </tbody>
+        </table>
+
+            </main>
+    {% endblock %}

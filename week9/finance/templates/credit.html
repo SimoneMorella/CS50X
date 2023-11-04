@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Credit
+{% endblock %}
+
+{% block main %}
+    <form action="/credit" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="added_cash" name="added_cash" placeholder="Cash to Add" type="number">
+        </div>
+        <button class="btn btn-primary" type="submit">Add</button>
+    </form>
+    <br>
+    <p style="color:green;font-weight: bold;">{{message}}</p>
+
+{% endblock %}

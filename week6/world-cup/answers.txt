@@ -1,0 +1,17 @@
+Times:
+
+10 simulations: 0m0.033s (record time using 0m0.000s format)
+100 simulations: 0m0.050s (record time using 0m0.000s format)
+1000 simulations: 0m0.061s (record time using 0m0.000s format)
+10000 simulations: 0m0.203s (record time using 0m0.000s format)
+100000 simulations: 0m0.919s (record time using 0m0.000s format)
+1000000 simulations: 0m8.323s (record time using 0m0.000s format)
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+it is true that increasing the num of simulation gives better precision. Although there is not much difference in results of the winners between 10 N or 10000 N.
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+the first 3 winners in percentage are always the same so I would say that a good prediction would occur early. I would say around 1000 simulations is enough because if you go over 1000 the time exponentially increase.

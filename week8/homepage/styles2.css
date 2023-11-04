@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Courier New, monospace;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 2rem 1rem;
+}
+
+#url1{
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#bodytitle {
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: 250;
+}
+.corpus{
+    width:100%;
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+}
+
+.img1{
+    margin-left:40px;
+    height: 400px;
+}
+
+.img2{
+    margin-left: auto;
+    height: 400px;
+    margin-right:40px;
+}
+
+.details{
+    width: 50%;
+    text-align:center;
+    padding:2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+summary{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.ronnie {
+    width: 100%;
+    margin-top: 50px;
+    text-align:center;
+}
+
+.img3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.foot{
+    position: relative;
+    height: 40vh;
+    }
+
+
+.foot-image {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+#hasby {
+    width: 6%;
+}
+
+
+.copyright {
+    font-size: 15px;
+    }

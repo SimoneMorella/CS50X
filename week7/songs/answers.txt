@@ -1,0 +1,7 @@
+Considering that the Audio Aura from Spotify is calculted starting from the Average values of Energy, Danceability and Valence;
+I would say that this averaged values are converted into hexadecimal RGB values that gives out a specific tonality of a colour that describe the user
+based on his previous year top 100.
+
+
+I don't know if in the Audio Aura of Spotify all these three values are associated to one of the RGB values. But if it is so I would suggest to
+average all of them and not associating any of the three values to any of the RGB values and just average all of them.
